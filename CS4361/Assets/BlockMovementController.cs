@@ -21,5 +21,9 @@ public class BlockMovementController : MonoBehaviour
         {
             transform.position += 5 * Vector3.right;
         }
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            transform.Rotate(new Vector3(0, 0, 90));
+        }
     }
 }
